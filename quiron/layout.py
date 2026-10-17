@@ -998,7 +998,9 @@ def _seccion_mapa(
                                     "Cada punto representa "
                                     "una sede con oferta "
                                     "quirúrgica y coordenadas "
-                                    "verificadas."
+                                    "verificadas. El marcador rojo "
+                                    "muestra tu ubicación si la "
+                                    "autorizas en el navegador."
                                 ),
                                 className=(
                                     "descripcion-seccion"

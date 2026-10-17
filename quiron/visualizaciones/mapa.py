@@ -463,7 +463,7 @@ def crear_mapa_oferta_quirurgica(
         center=CENTRO_BOGOTA,
         zoom=ZOOM_INICIAL,
         height=ALTURA_MAPA,
-        map_style="carto-positron",
+        map_style="open-street-map",
         color_discrete_sequence=[
             COLOR_MORADO_UCOMPENSAR
         ],
@@ -508,7 +508,15 @@ def crear_mapa_oferta_quirurgica(
             "t": 10,
             "b": 0,
         },
-        showlegend=False,
+        showlegend=True,
+        legend={
+            "orientation": "h",
+            "yanchor": "bottom",
+            "y": 1.01,
+            "xanchor": "left",
+            "x": 0,
+            "font": {"size": 12},
+        },
         hoverlabel={
             "bgcolor": (
                 COLOR_FONDO
