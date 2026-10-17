@@ -482,8 +482,8 @@ def _panel_filtros(
                                     "servicios"
                                 ]
                             ),
-                            value=None,
-                            multi=False,  # Cambiado a selección simple
+                            value=[],
+                            multi=True,
                             clearable=True,
                             searchable=True,
                             placeholder=(
@@ -505,8 +505,8 @@ def _panel_filtros(
                                     "naturalezas"
                                 ]
                             ),
-                            value=None,
-                            multi=False,  # Cambiado a selección simple
+                            value=[],
+                            multi=True,
                             clearable=True,
                             searchable=True,
                             placeholder=(
@@ -528,8 +528,8 @@ def _panel_filtros(
                                     "tipos_prestador"
                                 ]
                             ),
-                            value=None,
-                            multi=False,  # Cambiado a selección simple
+                            value=[],
+                            multi=True,
                             clearable=True,
                             searchable=True,
                             placeholder=(
