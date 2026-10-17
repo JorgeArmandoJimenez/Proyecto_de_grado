@@ -156,11 +156,8 @@ def _construir_datos_iniciales(
         )
     )
 
-    opciones_filtros = (
-        obtener_opciones_filtros(
-            tabla
-        )
-    )
+    opciones_filtros = obtener_opciones_filtros(tabla)
+    print("OPCIONES CARGADAS:", opciones_filtros)
 
     metadata = obtener_metadata(
         tabla=tabla

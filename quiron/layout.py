@@ -442,8 +442,8 @@ def _panel_filtros(
                             ),
                             html.P(
                                 (
-                                    "Combina uno o varios "
-                                    "criterios para actualizar "
+                                    "Selecciona un criterio "
+                                    "para actualizar "
                                     "los indicadores, el mapa, "
                                     "las tablas y las descargas."
                                 ),
@@ -482,13 +482,12 @@ def _panel_filtros(
                                     "servicios"
                                 ]
                             ),
-                            value=[],
-                            multi=True,
+                            value=None,
+                            multi=False,  # Cambiado a selección simple
                             clearable=True,
                             searchable=True,
                             placeholder=(
-                                "Selecciona uno o "
-                                "varios servicios"
+                                "Selecciona un servicio"
                             ),
                             className=(
                                 "control-filtro"
@@ -506,13 +505,12 @@ def _panel_filtros(
                                     "naturalezas"
                                 ]
                             ),
-                            value=[],
-                            multi=True,
+                            value=None,
+                            multi=False,  # Cambiado a selección simple
                             clearable=True,
                             searchable=True,
                             placeholder=(
-                                "Selecciona una "
-                                "naturaleza"
+                                "Selecciona una naturaleza"
                             ),
                             className=(
                                 "control-filtro"
@@ -530,13 +528,12 @@ def _panel_filtros(
                                     "tipos_prestador"
                                 ]
                             ),
-                            value=[],
-                            multi=True,
+                            value=None,
+                            multi=False,  # Cambiado a selección simple
                             clearable=True,
                             searchable=True,
                             placeholder=(
-                                "Selecciona un tipo "
-                                "de prestador"
+                                "Selecciona un tipo de prestador"
                             ),
                             className=(
                                 "control-filtro"
